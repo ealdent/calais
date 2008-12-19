@@ -1,7 +1,8 @@
 History.txt
 MIT-LICENSE
 Manifest.txt
-README.txt
+README.markdown
+README
 Rakefile
 init.rb
 lib/calais.rb
