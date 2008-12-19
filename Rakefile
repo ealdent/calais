@@ -10,7 +10,7 @@ Hoe.new('calais', Calais::VERSION) do |p|
   p.rubyforge_name = 'calais'
   p.author = 'Abhay Kumar'
   p.summary = 'A Ruby interface to the Calais Web Service'
-  p.description = p.paragraphs_of('README.txt', 1..9).join("\n\n")
+  p.description = p.paragraphs_of('README', 1..9).join("\n\n")
   p.email = 'info@opensynapse.net'
   p.url = 'http://calais.rubyforge.org'
   p.changes = p.paragraphs_of('History.txt', 0..1).join("\n\n")
