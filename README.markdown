@@ -5,7 +5,7 @@ A Ruby interface to the [Open Calais Web Service][calais]
 
 * Accepts documents in text/plain, text/xml and text/html format.
 * Basic access to the Open Calais API's Enlighten action.
-** Output is RDF representation of input document.
+* Output is RDF representation of input document.
 * Single function ability to tag a document and receive a response in RDF format, names in the document, and their relationships.
 
 ## Synopsis
@@ -34,7 +34,7 @@ This will return an object containing the RDF representation of the text, the na
 ## Requirements
 
 * Ruby 1.8.5 or better
-** Uses the following standard libraries: digest/sha1, net/http, yaml, cgi
+* Uses the following standard libraries: digest/sha1, net/http, yaml, cgi
 * libxml2 / libxml-ruby
 
 ## Install
@@ -44,6 +44,7 @@ You can install the Calais gem via Rubygems (``gem install calais``) or by build
 ## Authors
 
 Abhay Kumar
+
 [http://opensynapse.net][opensynapse]
 
 
